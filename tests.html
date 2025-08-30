@@ -77,8 +77,8 @@
                     <select id="category-filter" class="w-full md:w-64 px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
                         <option value="all">All Categories</option>
                         <option value="UPSC">UPSC</option>
-                        <option value="IIT">IIT</option>
-                        <option value="Medical">Medical</option>
+                        <option value="IIT">SSC</option>
+                        <option value="Medical">Banking</option>
                     </select>
                 </div>
                 <div id="tests-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -97,7 +97,7 @@
                     <p class="text-gray-400">Your success is our priority</p>
                 </div>
                 <div>
-                    <p class="text-gray-400">&copy; 2023 ExamPrep Pro. All rights reserved.</p>
+                    <p class="text-gray-400">&copy; 2025 ExamPrep Pro. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -152,7 +152,7 @@
         }
 
         if (!localStorage.getItem('examPrepCategories')) {
-            localStorage.setItem('examPrepCategories', JSON.stringify(["UPSC", "IIT", "Medical"]));
+            localStorage.setItem('examPrepCategories', JSON.stringify(["UPSC", "Railways", "Banking"]));
         }
 
         if (!localStorage.getItem('examPrepTestSets')) {
@@ -406,4 +406,5 @@
         }
     </script>
 </body>
+
 </html>
